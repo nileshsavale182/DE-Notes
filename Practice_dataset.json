@@ -1,0 +1,1890 @@
+{
+  "items": [
+    {
+      "entity_id": 100000001,
+      "increment_id": "000000001",
+      "quote_id": 5001,
+      "store_id": 2,
+      "store_name": "Flo PL",
+      "state": "processing",
+      "status": "pending_payment",
+      "created_at": "2026-03-01 08:07:00",
+      "updated_at": "2026-03-01 08:27:00",
+      "customer_id": 1001,
+      "customer_email": "user1@example.com",
+      "customer_firstname": "First1",
+      "customer_lastname": "Last1",
+      "customer_group_id": 1,
+      "customer_is_guest": 0,
+      "base_currency_code": "PLN",
+      "order_currency_code": "PLN",
+      "store_currency_code": "PLN",
+      "global_currency_code": "PLN",
+      "subtotal": 225.0,
+      "base_subtotal": 225.0,
+      "tax_amount": 42.75,
+      "base_tax_amount": 42.75,
+      "discount_amount": 0.0,
+      "base_discount_amount": 0.0,
+      "shipping_amount": 0.0,
+      "base_shipping_amount": 0.0,
+      "grand_total": 267.75,
+      "base_grand_total": 267.75,
+      "total_qty_ordered": 3,
+      "total_item_count": 3,
+      "billing_address": {
+        "firstname": "First1",
+        "lastname": "Last1",
+        "street": [
+          "Street 1"
+        ],
+        "city": "Warsaw",
+        "region": "Mazowieckie",
+        "postcode": "00-001",
+        "country_id": "PL",
+        "telephone": "+48220001"
+      },
+      "payment": {
+        "method": "paypal",
+        "amount_ordered": 267.75,
+        "base_amount_ordered": 267.75,
+        "additional_information": [
+          "Payment processed"
+        ]
+      },
+      "items": [
+        {
+          "item_id": 200001,
+          "order_id": 100000001,
+          "product_id": 300001,
+          "sku": "SKU-0001",
+          "name": "Product 1",
+          "price": 75.0,
+          "base_price": 75.0,
+          "qty_ordered": 3,
+          "qty_shipped": 3,
+          "qty_invoiced": 3,
+          "row_total": 225.0,
+          "base_row_total": 225.0,
+          "tax_amount": 42.75,
+          "discount_amount": 0.0,
+          "created_at": "2026-03-01 08:07:00",
+          "updated_at": "2026-03-01 08:27:00"
+        }
+      ],
+      "extension_attributes": {
+        "shipping_assignments": [
+          {
+            "shipping": {
+              "address": {
+                "firstname": "First1",
+                "lastname": "Last1",
+                "street": [
+                  "Street 1"
+                ],
+                "city": "Warsaw",
+                "region": "Mazowieckie",
+                "postcode": "00-001",
+                "country_id": "PL",
+                "telephone": "+48220001"
+              },
+              "method": "flatrate_flatrate"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "entity_id": 100000002,
+      "increment_id": "000000002",
+      "quote_id": 5002,
+      "store_id": 2,
+      "store_name": "Flo PL",
+      "state": "processing",
+      "status": "canceled",
+      "created_at": "2026-03-01 08:14:00",
+      "updated_at": "2026-03-01 08:16:00",
+      "customer_id": 1002,
+      "customer_email": "user2@example.com",
+      "customer_firstname": "First2",
+      "customer_lastname": "Last2",
+      "customer_group_id": 1,
+      "customer_is_guest": 0,
+      "base_currency_code": "PLN",
+      "order_currency_code": "PLN",
+      "store_currency_code": "PLN",
+      "global_currency_code": "PLN",
+      "subtotal": 100.0,
+      "base_subtotal": 100.0,
+      "tax_amount": 19.0,
+      "base_tax_amount": 19.0,
+      "discount_amount": 0.0,
+      "base_discount_amount": 0.0,
+      "shipping_amount": 0.0,
+      "base_shipping_amount": 0.0,
+      "grand_total": 119.0,
+      "base_grand_total": 119.0,
+      "total_qty_ordered": 1,
+      "total_item_count": 1,
+      "billing_address": {
+        "firstname": "First2",
+        "lastname": "Last2",
+        "street": [
+          "Street 2"
+        ],
+        "city": "Warsaw",
+        "region": "Mazowieckie",
+        "postcode": "00-001",
+        "country_id": "PL",
+        "telephone": "+48220002"
+      },
+      "payment": {
+        "method": "stripe",
+        "amount_ordered": 119.0,
+        "base_amount_ordered": 119.0,
+        "additional_information": [
+          "Payment processed"
+        ]
+      },
+      "items": [
+        {
+          "item_id": 200002,
+          "order_id": 100000002,
+          "product_id": 300002,
+          "sku": "SKU-0002",
+          "name": "Product 2",
+          "price": 100.0,
+          "base_price": 100.0,
+          "qty_ordered": 1,
+          "qty_shipped": 0,
+          "qty_invoiced": 1,
+          "row_total": 100.0,
+          "base_row_total": 100.0,
+          "tax_amount": 19.0,
+          "discount_amount": 0.0,
+          "created_at": "2026-03-01 08:14:00",
+          "updated_at": "2026-03-01 08:16:00"
+        }
+      ],
+      "extension_attributes": {
+        "shipping_assignments": [
+          {
+            "shipping": {
+              "address": {
+                "firstname": "First2",
+                "lastname": "Last2",
+                "street": [
+                  "Street 2"
+                ],
+                "city": "Warsaw",
+                "region": "Mazowieckie",
+                "postcode": "00-001",
+                "country_id": "PL",
+                "telephone": "+48220002"
+              },
+              "method": "flatrate_flatrate"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "entity_id": 100000003,
+      "increment_id": "000000003",
+      "quote_id": 5003,
+      "store_id": 3,
+      "store_name": "Felo PL",
+      "state": "processing",
+      "status": "pending_payment",
+      "created_at": "2026-03-01 08:21:00",
+      "updated_at": "2026-03-01 08:32:00",
+      "customer_id": 1003,
+      "customer_email": "user3@example.com",
+      "customer_firstname": "First3",
+      "customer_lastname": "Last3",
+      "customer_group_id": 1,
+      "customer_is_guest": 0,
+      "base_currency_code": "PLN",
+      "order_currency_code": "PLN",
+      "store_currency_code": "PLN",
+      "global_currency_code": "PLN",
+      "subtotal": 25.0,
+      "base_subtotal": 25.0,
+      "tax_amount": 4.75,
+      "base_tax_amount": 4.75,
+      "discount_amount": 0.0,
+      "base_discount_amount": 0.0,
+      "shipping_amount": 0.0,
+      "base_shipping_amount": 0.0,
+      "grand_total": 29.75,
+      "base_grand_total": 29.75,
+      "total_qty_ordered": 1,
+      "total_item_count": 1,
+      "billing_address": {
+        "firstname": "First3",
+        "lastname": "Last3",
+        "street": [
+          "Street 3"
+        ],
+        "city": "Warsaw",
+        "region": "Mazowieckie",
+        "postcode": "00-001",
+        "country_id": "PL",
+        "telephone": "+48220003"
+      },
+      "payment": {
+        "method": "banktransfer",
+        "amount_ordered": 29.75,
+        "base_amount_ordered": 29.75,
+        "additional_information": [
+          "Payment processed"
+        ]
+      },
+      "items": [
+        {
+          "item_id": 200003,
+          "order_id": 100000003,
+          "product_id": 300003,
+          "sku": "SKU-0003",
+          "name": "Product 3",
+          "price": 25.0,
+          "base_price": 25.0,
+          "qty_ordered": 1,
+          "qty_shipped": 1,
+          "qty_invoiced": 1,
+          "row_total": 25.0,
+          "base_row_total": 25.0,
+          "tax_amount": 4.75,
+          "discount_amount": 0.0,
+          "created_at": "2026-03-01 08:21:00",
+          "updated_at": "2026-03-01 08:32:00"
+        }
+      ],
+      "extension_attributes": {
+        "shipping_assignments": [
+          {
+            "shipping": {
+              "address": {
+                "firstname": "First3",
+                "lastname": "Last3",
+                "street": [
+                  "Street 3"
+                ],
+                "city": "Warsaw",
+                "region": "Mazowieckie",
+                "postcode": "00-001",
+                "country_id": "PL",
+                "telephone": "+48220003"
+              },
+              "method": "flatrate_flatrate"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "entity_id": 100000004,
+      "increment_id": "000000004",
+      "quote_id": 5004,
+      "store_id": 2,
+      "store_name": "Flo PL",
+      "state": "processing",
+      "status": "pending_payment",
+      "created_at": "2026-03-01 08:28:00",
+      "updated_at": "2026-03-01 08:44:00",
+      "customer_id": 1004,
+      "customer_email": "user4@example.com",
+      "customer_firstname": "First4",
+      "customer_lastname": "Last4",
+      "customer_group_id": 1,
+      "customer_is_guest": 0,
+      "base_currency_code": "PLN",
+      "order_currency_code": "PLN",
+      "store_currency_code": "PLN",
+      "global_currency_code": "PLN",
+      "subtotal": 150.0,
+      "base_subtotal": 150.0,
+      "tax_amount": 28.5,
+      "base_tax_amount": 28.5,
+      "discount_amount": 0.0,
+      "base_discount_amount": 0.0,
+      "shipping_amount": 0.0,
+      "base_shipping_amount": 0.0,
+      "grand_total": 178.5,
+      "base_grand_total": 178.5,
+      "total_qty_ordered": 3,
+      "total_item_count": 3,
+      "billing_address": {
+        "firstname": "First4",
+        "lastname": "Last4",
+        "street": [
+          "Street 4"
+        ],
+        "city": "Warsaw",
+        "region": "Mazowieckie",
+        "postcode": "00-001",
+        "country_id": "PL",
+        "telephone": "+48220004"
+      },
+      "payment": {
+        "method": "paypal",
+        "amount_ordered": 178.5,
+        "base_amount_ordered": 178.5,
+        "additional_information": [
+          "Payment processed"
+        ]
+      },
+      "items": [
+        {
+          "item_id": 200004,
+          "order_id": 100000004,
+          "product_id": 300004,
+          "sku": "SKU-0004",
+          "name": "Product 4",
+          "price": 50.0,
+          "base_price": 50.0,
+          "qty_ordered": 3,
+          "qty_shipped": 3,
+          "qty_invoiced": 3,
+          "row_total": 150.0,
+          "base_row_total": 150.0,
+          "tax_amount": 28.5,
+          "discount_amount": 0.0,
+          "created_at": "2026-03-01 08:28:00",
+          "updated_at": "2026-03-01 08:44:00"
+        }
+      ],
+      "extension_attributes": {
+        "shipping_assignments": [
+          {
+            "shipping": {
+              "address": {
+                "firstname": "First4",
+                "lastname": "Last4",
+                "street": [
+                  "Street 4"
+                ],
+                "city": "Warsaw",
+                "region": "Mazowieckie",
+                "postcode": "00-001",
+                "country_id": "PL",
+                "telephone": "+48220004"
+              },
+              "method": "flatrate_flatrate"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "entity_id": 100000005,
+      "increment_id": "000000005",
+      "quote_id": 5005,
+      "store_id": 3,
+      "store_name": "Felo PL",
+      "state": "processing",
+      "status": "processing",
+      "created_at": "2026-03-01 08:35:00",
+      "updated_at": "2026-03-01 08:52:00",
+      "customer_id": null,
+      "customer_email": "user5@example.com",
+      "customer_firstname": "First5",
+      "customer_lastname": "Last5",
+      "customer_group_id": 1,
+      "customer_is_guest": 1,
+      "base_currency_code": "PLN",
+      "order_currency_code": "PLN",
+      "store_currency_code": "PLN",
+      "global_currency_code": "PLN",
+      "subtotal": 225.0,
+      "base_subtotal": 225.0,
+      "tax_amount": 42.75,
+      "base_tax_amount": 42.75,
+      "discount_amount": 0.0,
+      "base_discount_amount": 0.0,
+      "shipping_amount": 0.0,
+      "base_shipping_amount": 0.0,
+      "grand_total": 267.75,
+      "base_grand_total": 267.75,
+      "total_qty_ordered": 3,
+      "total_item_count": 3,
+      "billing_address": {
+        "firstname": "First5",
+        "lastname": "Last5",
+        "street": [
+          "Street 5"
+        ],
+        "city": "Warsaw",
+        "region": "Mazowieckie",
+        "postcode": "00-001",
+        "country_id": "PL",
+        "telephone": "+48220005"
+      },
+      "payment": {
+        "method": "paypal",
+        "amount_ordered": 267.75,
+        "base_amount_ordered": 267.75,
+        "additional_information": [
+          "Payment processed"
+        ]
+      },
+      "items": [
+        {
+          "item_id": 200005,
+          "order_id": 100000005,
+          "product_id": 300005,
+          "sku": "SKU-0005",
+          "name": "Product 5",
+          "price": 75.0,
+          "base_price": 75.0,
+          "qty_ordered": 3,
+          "qty_shipped": 0,
+          "qty_invoiced": 3,
+          "row_total": 225.0,
+          "base_row_total": 225.0,
+          "tax_amount": 42.75,
+          "discount_amount": 0.0,
+          "created_at": "2026-03-01 08:35:00",
+          "updated_at": "2026-03-01 08:52:00"
+        }
+      ],
+      "extension_attributes": {
+        "shipping_assignments": [
+          {
+            "shipping": {
+              "address": {
+                "firstname": "First5",
+                "lastname": "Last5",
+                "street": [
+                  "Street 5"
+                ],
+                "city": "Warsaw",
+                "region": "Mazowieckie",
+                "postcode": "00-001",
+                "country_id": "PL",
+                "telephone": "+48220005"
+              },
+              "method": "flatrate_flatrate"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "entity_id": 100000006,
+      "increment_id": "000000006",
+      "quote_id": 5006,
+      "store_id": 3,
+      "store_name": "Felo PL",
+      "state": "processing",
+      "status": "canceled",
+      "created_at": "2026-03-01 08:42:00",
+      "updated_at": "2026-03-01 09:02:00",
+      "customer_id": 1006,
+      "customer_email": "user6@example.com",
+      "customer_firstname": "First6",
+      "customer_lastname": "Last6",
+      "customer_group_id": 1,
+      "customer_is_guest": 0,
+      "base_currency_code": "PLN",
+      "order_currency_code": "PLN",
+      "store_currency_code": "PLN",
+      "global_currency_code": "PLN",
+      "subtotal": 100.0,
+      "base_subtotal": 100.0,
+      "tax_amount": 19.0,
+      "base_tax_amount": 19.0,
+      "discount_amount": 0.0,
+      "base_discount_amount": 0.0,
+      "shipping_amount": 0.0,
+      "base_shipping_amount": 0.0,
+      "grand_total": 119.0,
+      "base_grand_total": 119.0,
+      "total_qty_ordered": 1,
+      "total_item_count": 1,
+      "billing_address": {
+        "firstname": "First6",
+        "lastname": "Last6",
+        "street": [
+          "Street 6"
+        ],
+        "city": "Warsaw",
+        "region": "Mazowieckie",
+        "postcode": "00-001",
+        "country_id": "PL",
+        "telephone": "+48220006"
+      },
+      "payment": {
+        "method": "stripe",
+        "amount_ordered": 119.0,
+        "base_amount_ordered": 119.0,
+        "additional_information": [
+          "Payment processed"
+        ]
+      },
+      "items": [
+        {
+          "item_id": 200006,
+          "order_id": 100000006,
+          "product_id": 300006,
+          "sku": "SKU-0006",
+          "name": "Product 6",
+          "price": 100.0,
+          "base_price": 100.0,
+          "qty_ordered": 1,
+          "qty_shipped": 1,
+          "qty_invoiced": 1,
+          "row_total": 100.0,
+          "base_row_total": 100.0,
+          "tax_amount": 19.0,
+          "discount_amount": 0.0,
+          "created_at": "2026-03-01 08:42:00",
+          "updated_at": "2026-03-01 09:02:00"
+        }
+      ],
+      "extension_attributes": {
+        "shipping_assignments": [
+          {
+            "shipping": {
+              "address": {
+                "firstname": "First6",
+                "lastname": "Last6",
+                "street": [
+                  "Street 6"
+                ],
+                "city": "Warsaw",
+                "region": "Mazowieckie",
+                "postcode": "00-001",
+                "country_id": "PL",
+                "telephone": "+48220006"
+              },
+              "method": "flatrate_flatrate"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "entity_id": 100000007,
+      "increment_id": "000000007",
+      "quote_id": 5007,
+      "store_id": 2,
+      "store_name": "Flo PL",
+      "state": "processing",
+      "status": "processing",
+      "created_at": "2026-03-01 08:49:00",
+      "updated_at": "2026-03-01 08:53:00",
+      "customer_id": 1007,
+      "customer_email": "user7@example.com",
+      "customer_firstname": "First7",
+      "customer_lastname": "Last7",
+      "customer_group_id": 1,
+      "customer_is_guest": 0,
+      "base_currency_code": "PLN",
+      "order_currency_code": "PLN",
+      "store_currency_code": "PLN",
+      "global_currency_code": "PLN",
+      "subtotal": 25.0,
+      "base_subtotal": 25.0,
+      "tax_amount": 4.75,
+      "base_tax_amount": 4.75,
+      "discount_amount": 0.0,
+      "base_discount_amount": 0.0,
+      "shipping_amount": 0.0,
+      "base_shipping_amount": 0.0,
+      "grand_total": 29.75,
+      "base_grand_total": 29.75,
+      "total_qty_ordered": 1,
+      "total_item_count": 1,
+      "billing_address": {
+        "firstname": "First7",
+        "lastname": "Last7",
+        "street": [
+          "Street 7"
+        ],
+        "city": "Warsaw",
+        "region": "Mazowieckie",
+        "postcode": "00-001",
+        "country_id": "PL",
+        "telephone": "+48220007"
+      },
+      "payment": {
+        "method": "stripe",
+        "amount_ordered": 29.75,
+        "base_amount_ordered": 29.75,
+        "additional_information": [
+          "Payment processed"
+        ]
+      },
+      "items": [
+        {
+          "item_id": 200007,
+          "order_id": 100000007,
+          "product_id": 300007,
+          "sku": "SKU-0007",
+          "name": "Product 7",
+          "price": 25.0,
+          "base_price": 25.0,
+          "qty_ordered": 1,
+          "qty_shipped": 1,
+          "qty_invoiced": 1,
+          "row_total": 25.0,
+          "base_row_total": 25.0,
+          "tax_amount": 4.75,
+          "discount_amount": 0.0,
+          "created_at": "2026-03-01 08:49:00",
+          "updated_at": "2026-03-01 08:53:00"
+        }
+      ],
+      "extension_attributes": {
+        "shipping_assignments": [
+          {
+            "shipping": {
+              "address": {
+                "firstname": "First7",
+                "lastname": "Last7",
+                "street": [
+                  "Street 7"
+                ],
+                "city": "Warsaw",
+                "region": "Mazowieckie",
+                "postcode": "00-001",
+                "country_id": "PL",
+                "telephone": "+48220007"
+              },
+              "method": "flatrate_flatrate"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "entity_id": 100000008,
+      "increment_id": "000000008",
+      "quote_id": 5008,
+      "store_id": 3,
+      "store_name": "Felo PL",
+      "state": "processing",
+      "status": "pending_payment",
+      "created_at": "2026-03-01 08:56:00",
+      "updated_at": "2026-03-01 09:16:00",
+      "customer_id": 1008,
+      "customer_email": "user8@example.com",
+      "customer_firstname": "First8",
+      "customer_lastname": "Last8",
+      "customer_group_id": 1,
+      "customer_is_guest": 0,
+      "base_currency_code": "PLN",
+      "order_currency_code": "PLN",
+      "store_currency_code": "PLN",
+      "global_currency_code": "PLN",
+      "subtotal": 150.0,
+      "base_subtotal": 150.0,
+      "tax_amount": 28.5,
+      "base_tax_amount": 28.5,
+      "discount_amount": 0.0,
+      "base_discount_amount": 0.0,
+      "shipping_amount": 0.0,
+      "base_shipping_amount": 0.0,
+      "grand_total": 178.5,
+      "base_grand_total": 178.5,
+      "total_qty_ordered": 2,
+      "total_item_count": 2,
+      "billing_address": {
+        "firstname": "First8",
+        "lastname": "Last8",
+        "street": [
+          "Street 8"
+        ],
+        "city": "Warsaw",
+        "region": "Mazowieckie",
+        "postcode": "00-001",
+        "country_id": "PL",
+        "telephone": "+48220008"
+      },
+      "payment": {
+        "method": "banktransfer",
+        "amount_ordered": 178.5,
+        "base_amount_ordered": 178.5,
+        "additional_information": [
+          "Payment processed"
+        ]
+      },
+      "items": [
+        {
+          "item_id": 200008,
+          "order_id": 100000008,
+          "product_id": 300008,
+          "sku": "SKU-0008",
+          "name": "Product 8",
+          "price": 75.0,
+          "base_price": 75.0,
+          "qty_ordered": 2,
+          "qty_shipped": 0,
+          "qty_invoiced": 2,
+          "row_total": 150.0,
+          "base_row_total": 150.0,
+          "tax_amount": 28.5,
+          "discount_amount": 0.0,
+          "created_at": "2026-03-01 08:56:00",
+          "updated_at": "2026-03-01 09:16:00"
+        }
+      ],
+      "extension_attributes": {
+        "shipping_assignments": [
+          {
+            "shipping": {
+              "address": {
+                "firstname": "First8",
+                "lastname": "Last8",
+                "street": [
+                  "Street 8"
+                ],
+                "city": "Warsaw",
+                "region": "Mazowieckie",
+                "postcode": "00-001",
+                "country_id": "PL",
+                "telephone": "+48220008"
+              },
+              "method": "flatrate_flatrate"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "entity_id": 100000009,
+      "increment_id": "000000009",
+      "quote_id": 5009,
+      "store_id": 3,
+      "store_name": "Felo PL",
+      "state": "processing",
+      "status": "pending_payment",
+      "created_at": "2026-03-01 09:03:00",
+      "updated_at": "2026-03-01 09:16:00",
+      "customer_id": 1009,
+      "customer_email": "user9@example.com",
+      "customer_firstname": "First9",
+      "customer_lastname": "Last9",
+      "customer_group_id": 1,
+      "customer_is_guest": 0,
+      "base_currency_code": "PLN",
+      "order_currency_code": "PLN",
+      "store_currency_code": "PLN",
+      "global_currency_code": "PLN",
+      "subtotal": 75.0,
+      "base_subtotal": 75.0,
+      "tax_amount": 14.25,
+      "base_tax_amount": 14.25,
+      "discount_amount": 0.0,
+      "base_discount_amount": 0.0,
+      "shipping_amount": 0.0,
+      "base_shipping_amount": 0.0,
+      "grand_total": 89.25,
+      "base_grand_total": 89.25,
+      "total_qty_ordered": 1,
+      "total_item_count": 1,
+      "billing_address": {
+        "firstname": "First9",
+        "lastname": "Last9",
+        "street": [
+          "Street 9"
+        ],
+        "city": "Warsaw",
+        "region": "Mazowieckie",
+        "postcode": "00-001",
+        "country_id": "PL",
+        "telephone": "+48220009"
+      },
+      "payment": {
+        "method": "paypal",
+        "amount_ordered": 89.25,
+        "base_amount_ordered": 89.25,
+        "additional_information": [
+          "Payment processed"
+        ]
+      },
+      "items": [
+        {
+          "item_id": 200009,
+          "order_id": 100000009,
+          "product_id": 300009,
+          "sku": "SKU-0009",
+          "name": "Product 9",
+          "price": 75.0,
+          "base_price": 75.0,
+          "qty_ordered": 1,
+          "qty_shipped": 1,
+          "qty_invoiced": 1,
+          "row_total": 75.0,
+          "base_row_total": 75.0,
+          "tax_amount": 14.25,
+          "discount_amount": 0.0,
+          "created_at": "2026-03-01 09:03:00",
+          "updated_at": "2026-03-01 09:16:00"
+        }
+      ],
+      "extension_attributes": {
+        "shipping_assignments": [
+          {
+            "shipping": {
+              "address": {
+                "firstname": "First9",
+                "lastname": "Last9",
+                "street": [
+                  "Street 9"
+                ],
+                "city": "Warsaw",
+                "region": "Mazowieckie",
+                "postcode": "00-001",
+                "country_id": "PL",
+                "telephone": "+48220009"
+              },
+              "method": "flatrate_flatrate"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "entity_id": 100000010,
+      "increment_id": "000000010",
+      "quote_id": 5010,
+      "store_id": 2,
+      "store_name": "Flo PL",
+      "state": "processing",
+      "status": "processing",
+      "created_at": "2026-03-01 09:10:00",
+      "updated_at": "2026-03-01 09:11:00",
+      "customer_id": null,
+      "customer_email": "user10@example.com",
+      "customer_firstname": "First10",
+      "customer_lastname": "Last10",
+      "customer_group_id": 1,
+      "customer_is_guest": 1,
+      "base_currency_code": "PLN",
+      "order_currency_code": "PLN",
+      "store_currency_code": "PLN",
+      "global_currency_code": "PLN",
+      "subtotal": 225.0,
+      "base_subtotal": 225.0,
+      "tax_amount": 42.75,
+      "base_tax_amount": 42.75,
+      "discount_amount": 0.0,
+      "base_discount_amount": 0.0,
+      "shipping_amount": 0.0,
+      "base_shipping_amount": 0.0,
+      "grand_total": 267.75,
+      "base_grand_total": 267.75,
+      "total_qty_ordered": 3,
+      "total_item_count": 3,
+      "billing_address": {
+        "firstname": "First10",
+        "lastname": "Last10",
+        "street": [
+          "Street 10"
+        ],
+        "city": "Warsaw",
+        "region": "Mazowieckie",
+        "postcode": "00-001",
+        "country_id": "PL",
+        "telephone": "+48220010"
+      },
+      "payment": {
+        "method": "checkmo",
+        "amount_ordered": 267.75,
+        "base_amount_ordered": 267.75,
+        "additional_information": [
+          "Payment processed"
+        ]
+      },
+      "items": [
+        {
+          "item_id": 200010,
+          "order_id": 100000010,
+          "product_id": 300010,
+          "sku": "SKU-0010",
+          "name": "Product 10",
+          "price": 75.0,
+          "base_price": 75.0,
+          "qty_ordered": 3,
+          "qty_shipped": 3,
+          "qty_invoiced": 3,
+          "row_total": 225.0,
+          "base_row_total": 225.0,
+          "tax_amount": 42.75,
+          "discount_amount": 0.0,
+          "created_at": "2026-03-01 09:10:00",
+          "updated_at": "2026-03-01 09:11:00"
+        }
+      ],
+      "extension_attributes": {
+        "shipping_assignments": [
+          {
+            "shipping": {
+              "address": {
+                "firstname": "First10",
+                "lastname": "Last10",
+                "street": [
+                  "Street 10"
+                ],
+                "city": "Warsaw",
+                "region": "Mazowieckie",
+                "postcode": "00-001",
+                "country_id": "PL",
+                "telephone": "+48220010"
+              },
+              "method": "flatrate_flatrate"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "entity_id": 100000011,
+      "increment_id": "000000011",
+      "quote_id": 5011,
+      "store_id": 1,
+      "store_name": "Fuse DE",
+      "state": "processing",
+      "status": "canceled",
+      "created_at": "2026-03-01 09:17:00",
+      "updated_at": "2026-03-01 09:35:00",
+      "customer_id": 1011,
+      "customer_email": "user11@example.com",
+      "customer_firstname": "First11",
+      "customer_lastname": "Last11",
+      "customer_group_id": 1,
+      "customer_is_guest": 0,
+      "base_currency_code": "EUR",
+      "order_currency_code": "EUR",
+      "store_currency_code": "EUR",
+      "global_currency_code": "EUR",
+      "subtotal": 75.0,
+      "base_subtotal": 75.0,
+      "tax_amount": 14.25,
+      "base_tax_amount": 14.25,
+      "discount_amount": 0.0,
+      "base_discount_amount": 0.0,
+      "shipping_amount": 0.0,
+      "base_shipping_amount": 0.0,
+      "grand_total": 89.25,
+      "base_grand_total": 89.25,
+      "total_qty_ordered": 1,
+      "total_item_count": 1,
+      "billing_address": {
+        "firstname": "First11",
+        "lastname": "Last11",
+        "street": [
+          "Street 11"
+        ],
+        "city": "Berlin",
+        "region": "Berlin",
+        "postcode": "10115",
+        "country_id": "DE",
+        "telephone": "+491230011"
+      },
+      "payment": {
+        "method": "checkmo",
+        "amount_ordered": 89.25,
+        "base_amount_ordered": 89.25,
+        "additional_information": [
+          "Payment processed"
+        ]
+      },
+      "items": [
+        {
+          "item_id": 200011,
+          "order_id": 100000011,
+          "product_id": 300011,
+          "sku": "SKU-0011",
+          "name": "Product 11",
+          "price": 75.0,
+          "base_price": 75.0,
+          "qty_ordered": 1,
+          "qty_shipped": 0,
+          "qty_invoiced": 1,
+          "row_total": 75.0,
+          "base_row_total": 75.0,
+          "tax_amount": 14.25,
+          "discount_amount": 0.0,
+          "created_at": "2026-03-01 09:17:00",
+          "updated_at": "2026-03-01 09:35:00"
+        }
+      ],
+      "extension_attributes": {
+        "shipping_assignments": [
+          {
+            "shipping": {
+              "address": {
+                "firstname": "First11",
+                "lastname": "Last11",
+                "street": [
+                  "Street 11"
+                ],
+                "city": "Berlin",
+                "region": "Berlin",
+                "postcode": "10115",
+                "country_id": "DE",
+                "telephone": "+491230011"
+              },
+              "method": "flatrate_flatrate"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "entity_id": 100000012,
+      "increment_id": "000000012",
+      "quote_id": 5012,
+      "store_id": 1,
+      "store_name": "Fuse DE",
+      "state": "processing",
+      "status": "complete",
+      "created_at": "2026-03-01 09:24:00",
+      "updated_at": "2026-03-01 09:30:00",
+      "customer_id": 1012,
+      "customer_email": "user12@example.com",
+      "customer_firstname": "First12",
+      "customer_lastname": "Last12",
+      "customer_group_id": 1,
+      "customer_is_guest": 0,
+      "base_currency_code": "EUR",
+      "order_currency_code": "EUR",
+      "store_currency_code": "EUR",
+      "global_currency_code": "EUR",
+      "subtotal": 225.0,
+      "base_subtotal": 225.0,
+      "tax_amount": 42.75,
+      "base_tax_amount": 42.75,
+      "discount_amount": 0.0,
+      "base_discount_amount": 0.0,
+      "shipping_amount": 0.0,
+      "base_shipping_amount": 0.0,
+      "grand_total": 267.75,
+      "base_grand_total": 267.75,
+      "total_qty_ordered": 3,
+      "total_item_count": 3,
+      "billing_address": {
+        "firstname": "First12",
+        "lastname": "Last12",
+        "street": [
+          "Street 12"
+        ],
+        "city": "Berlin",
+        "region": "Berlin",
+        "postcode": "10115",
+        "country_id": "DE",
+        "telephone": "+491230012"
+      },
+      "payment": {
+        "method": "checkmo",
+        "amount_ordered": 267.75,
+        "base_amount_ordered": 267.75,
+        "additional_information": [
+          "Payment processed"
+        ]
+      },
+      "items": [
+        {
+          "item_id": 200012,
+          "order_id": 100000012,
+          "product_id": 300012,
+          "sku": "SKU-0012",
+          "name": "Product 12",
+          "price": 75.0,
+          "base_price": 75.0,
+          "qty_ordered": 3,
+          "qty_shipped": 3,
+          "qty_invoiced": 3,
+          "row_total": 225.0,
+          "base_row_total": 225.0,
+          "tax_amount": 42.75,
+          "discount_amount": 0.0,
+          "created_at": "2026-03-01 09:24:00",
+          "updated_at": "2026-03-01 09:30:00"
+        }
+      ],
+      "extension_attributes": {
+        "shipping_assignments": [
+          {
+            "shipping": {
+              "address": {
+                "firstname": "First12",
+                "lastname": "Last12",
+                "street": [
+                  "Street 12"
+                ],
+                "city": "Berlin",
+                "region": "Berlin",
+                "postcode": "10115",
+                "country_id": "DE",
+                "telephone": "+491230012"
+              },
+              "method": "flatrate_flatrate"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "entity_id": 100000013,
+      "increment_id": "000000013",
+      "quote_id": 5013,
+      "store_id": 2,
+      "store_name": "Flo PL",
+      "state": "processing",
+      "status": "complete",
+      "created_at": "2026-03-01 09:31:00",
+      "updated_at": "2026-03-01 09:36:00",
+      "customer_id": 1013,
+      "customer_email": "user13@example.com",
+      "customer_firstname": "First13",
+      "customer_lastname": "Last13",
+      "customer_group_id": 1,
+      "customer_is_guest": 0,
+      "base_currency_code": "PLN",
+      "order_currency_code": "PLN",
+      "store_currency_code": "PLN",
+      "global_currency_code": "PLN",
+      "subtotal": 50.0,
+      "base_subtotal": 50.0,
+      "tax_amount": 9.5,
+      "base_tax_amount": 9.5,
+      "discount_amount": 0.0,
+      "base_discount_amount": 0.0,
+      "shipping_amount": 0.0,
+      "base_shipping_amount": 0.0,
+      "grand_total": 59.5,
+      "base_grand_total": 59.5,
+      "total_qty_ordered": 2,
+      "total_item_count": 2,
+      "billing_address": {
+        "firstname": "First13",
+        "lastname": "Last13",
+        "street": [
+          "Street 13"
+        ],
+        "city": "Warsaw",
+        "region": "Mazowieckie",
+        "postcode": "00-001",
+        "country_id": "PL",
+        "telephone": "+48220013"
+      },
+      "payment": {
+        "method": "paypal",
+        "amount_ordered": 59.5,
+        "base_amount_ordered": 59.5,
+        "additional_information": [
+          "Payment processed"
+        ]
+      },
+      "items": [
+        {
+          "item_id": 200013,
+          "order_id": 100000013,
+          "product_id": 300013,
+          "sku": "SKU-0013",
+          "name": "Product 13",
+          "price": 25.0,
+          "base_price": 25.0,
+          "qty_ordered": 2,
+          "qty_shipped": 0,
+          "qty_invoiced": 2,
+          "row_total": 50.0,
+          "base_row_total": 50.0,
+          "tax_amount": 9.5,
+          "discount_amount": 0.0,
+          "created_at": "2026-03-01 09:31:00",
+          "updated_at": "2026-03-01 09:36:00"
+        }
+      ],
+      "extension_attributes": {
+        "shipping_assignments": [
+          {
+            "shipping": {
+              "address": {
+                "firstname": "First13",
+                "lastname": "Last13",
+                "street": [
+                  "Street 13"
+                ],
+                "city": "Warsaw",
+                "region": "Mazowieckie",
+                "postcode": "00-001",
+                "country_id": "PL",
+                "telephone": "+48220013"
+              },
+              "method": "flatrate_flatrate"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "entity_id": 100000014,
+      "increment_id": "000000014",
+      "quote_id": 5014,
+      "store_id": 2,
+      "store_name": "Flo PL",
+      "state": "processing",
+      "status": "pending_payment",
+      "created_at": "2026-03-01 09:38:00",
+      "updated_at": "2026-03-01 09:57:00",
+      "customer_id": 1014,
+      "customer_email": "user14@example.com",
+      "customer_firstname": "First14",
+      "customer_lastname": "Last14",
+      "customer_group_id": 1,
+      "customer_is_guest": 0,
+      "base_currency_code": "PLN",
+      "order_currency_code": "PLN",
+      "store_currency_code": "PLN",
+      "global_currency_code": "PLN",
+      "subtotal": 100.0,
+      "base_subtotal": 100.0,
+      "tax_amount": 19.0,
+      "base_tax_amount": 19.0,
+      "discount_amount": 0.0,
+      "base_discount_amount": 0.0,
+      "shipping_amount": 0.0,
+      "base_shipping_amount": 0.0,
+      "grand_total": 119.0,
+      "base_grand_total": 119.0,
+      "total_qty_ordered": 2,
+      "total_item_count": 2,
+      "billing_address": {
+        "firstname": "First14",
+        "lastname": "Last14",
+        "street": [
+          "Street 14"
+        ],
+        "city": "Warsaw",
+        "region": "Mazowieckie",
+        "postcode": "00-001",
+        "country_id": "PL",
+        "telephone": "+48220014"
+      },
+      "payment": {
+        "method": "paypal",
+        "amount_ordered": 119.0,
+        "base_amount_ordered": 119.0,
+        "additional_information": [
+          "Payment processed"
+        ]
+      },
+      "items": [
+        {
+          "item_id": 200014,
+          "order_id": 100000014,
+          "product_id": 300014,
+          "sku": "SKU-0014",
+          "name": "Product 14",
+          "price": 50.0,
+          "base_price": 50.0,
+          "qty_ordered": 2,
+          "qty_shipped": 0,
+          "qty_invoiced": 2,
+          "row_total": 100.0,
+          "base_row_total": 100.0,
+          "tax_amount": 19.0,
+          "discount_amount": 0.0,
+          "created_at": "2026-03-01 09:38:00",
+          "updated_at": "2026-03-01 09:57:00"
+        }
+      ],
+      "extension_attributes": {
+        "shipping_assignments": [
+          {
+            "shipping": {
+              "address": {
+                "firstname": "First14",
+                "lastname": "Last14",
+                "street": [
+                  "Street 14"
+                ],
+                "city": "Warsaw",
+                "region": "Mazowieckie",
+                "postcode": "00-001",
+                "country_id": "PL",
+                "telephone": "+48220014"
+              },
+              "method": "flatrate_flatrate"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "entity_id": 100000015,
+      "increment_id": "000000015",
+      "quote_id": 5015,
+      "store_id": 3,
+      "store_name": "Felo PL",
+      "state": "processing",
+      "status": "pending_payment",
+      "created_at": "2026-03-01 09:45:00",
+      "updated_at": "2026-03-01 10:03:00",
+      "customer_id": null,
+      "customer_email": "user15@example.com",
+      "customer_firstname": "First15",
+      "customer_lastname": "Last15",
+      "customer_group_id": 1,
+      "customer_is_guest": 1,
+      "base_currency_code": "PLN",
+      "order_currency_code": "PLN",
+      "store_currency_code": "PLN",
+      "global_currency_code": "PLN",
+      "subtotal": 50.0,
+      "base_subtotal": 50.0,
+      "tax_amount": 9.5,
+      "base_tax_amount": 9.5,
+      "discount_amount": 0.0,
+      "base_discount_amount": 0.0,
+      "shipping_amount": 0.0,
+      "base_shipping_amount": 0.0,
+      "grand_total": 59.5,
+      "base_grand_total": 59.5,
+      "total_qty_ordered": 1,
+      "total_item_count": 1,
+      "billing_address": {
+        "firstname": "First15",
+        "lastname": "Last15",
+        "street": [
+          "Street 15"
+        ],
+        "city": "Warsaw",
+        "region": "Mazowieckie",
+        "postcode": "00-001",
+        "country_id": "PL",
+        "telephone": "+48220015"
+      },
+      "payment": {
+        "method": "paypal",
+        "amount_ordered": 59.5,
+        "base_amount_ordered": 59.5,
+        "additional_information": [
+          "Payment processed"
+        ]
+      },
+      "items": [
+        {
+          "item_id": 200015,
+          "order_id": 100000015,
+          "product_id": 300015,
+          "sku": "SKU-0015",
+          "name": "Product 15",
+          "price": 50.0,
+          "base_price": 50.0,
+          "qty_ordered": 1,
+          "qty_shipped": 1,
+          "qty_invoiced": 1,
+          "row_total": 50.0,
+          "base_row_total": 50.0,
+          "tax_amount": 9.5,
+          "discount_amount": 0.0,
+          "created_at": "2026-03-01 09:45:00",
+          "updated_at": "2026-03-01 10:03:00"
+        }
+      ],
+      "extension_attributes": {
+        "shipping_assignments": [
+          {
+            "shipping": {
+              "address": {
+                "firstname": "First15",
+                "lastname": "Last15",
+                "street": [
+                  "Street 15"
+                ],
+                "city": "Warsaw",
+                "region": "Mazowieckie",
+                "postcode": "00-001",
+                "country_id": "PL",
+                "telephone": "+48220015"
+              },
+              "method": "flatrate_flatrate"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "entity_id": 100000016,
+      "increment_id": "000000016",
+      "quote_id": 5016,
+      "store_id": 3,
+      "store_name": "Felo PL",
+      "state": "processing",
+      "status": "processing",
+      "created_at": "2026-03-01 09:52:00",
+      "updated_at": "2026-03-01 10:05:00",
+      "customer_id": 1016,
+      "customer_email": "user16@example.com",
+      "customer_firstname": "First16",
+      "customer_lastname": "Last16",
+      "customer_group_id": 1,
+      "customer_is_guest": 0,
+      "base_currency_code": "PLN",
+      "order_currency_code": "PLN",
+      "store_currency_code": "PLN",
+      "global_currency_code": "PLN",
+      "subtotal": 50.0,
+      "base_subtotal": 50.0,
+      "tax_amount": 9.5,
+      "base_tax_amount": 9.5,
+      "discount_amount": 0.0,
+      "base_discount_amount": 0.0,
+      "shipping_amount": 0.0,
+      "base_shipping_amount": 0.0,
+      "grand_total": 59.5,
+      "base_grand_total": 59.5,
+      "total_qty_ordered": 2,
+      "total_item_count": 2,
+      "billing_address": {
+        "firstname": "First16",
+        "lastname": "Last16",
+        "street": [
+          "Street 16"
+        ],
+        "city": "Warsaw",
+        "region": "Mazowieckie",
+        "postcode": "00-001",
+        "country_id": "PL",
+        "telephone": "+48220016"
+      },
+      "payment": {
+        "method": "banktransfer",
+        "amount_ordered": 59.5,
+        "base_amount_ordered": 59.5,
+        "additional_information": [
+          "Payment processed"
+        ]
+      },
+      "items": [
+        {
+          "item_id": 200016,
+          "order_id": 100000016,
+          "product_id": 300016,
+          "sku": "SKU-0016",
+          "name": "Product 16",
+          "price": 25.0,
+          "base_price": 25.0,
+          "qty_ordered": 2,
+          "qty_shipped": 2,
+          "qty_invoiced": 2,
+          "row_total": 50.0,
+          "base_row_total": 50.0,
+          "tax_amount": 9.5,
+          "discount_amount": 0.0,
+          "created_at": "2026-03-01 09:52:00",
+          "updated_at": "2026-03-01 10:05:00"
+        }
+      ],
+      "extension_attributes": {
+        "shipping_assignments": [
+          {
+            "shipping": {
+              "address": {
+                "firstname": "First16",
+                "lastname": "Last16",
+                "street": [
+                  "Street 16"
+                ],
+                "city": "Warsaw",
+                "region": "Mazowieckie",
+                "postcode": "00-001",
+                "country_id": "PL",
+                "telephone": "+48220016"
+              },
+              "method": "flatrate_flatrate"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "entity_id": 100000017,
+      "increment_id": "000000017",
+      "quote_id": 5017,
+      "store_id": 3,
+      "store_name": "Felo PL",
+      "state": "processing",
+      "status": "complete",
+      "created_at": "2026-03-01 09:59:00",
+      "updated_at": "2026-03-01 10:02:00",
+      "customer_id": 1017,
+      "customer_email": "user17@example.com",
+      "customer_firstname": "First17",
+      "customer_lastname": "Last17",
+      "customer_group_id": 1,
+      "customer_is_guest": 0,
+      "base_currency_code": "PLN",
+      "order_currency_code": "PLN",
+      "store_currency_code": "PLN",
+      "global_currency_code": "PLN",
+      "subtotal": 100.0,
+      "base_subtotal": 100.0,
+      "tax_amount": 19.0,
+      "base_tax_amount": 19.0,
+      "discount_amount": 0.0,
+      "base_discount_amount": 0.0,
+      "shipping_amount": 0.0,
+      "base_shipping_amount": 0.0,
+      "grand_total": 119.0,
+      "base_grand_total": 119.0,
+      "total_qty_ordered": 1,
+      "total_item_count": 1,
+      "billing_address": {
+        "firstname": "First17",
+        "lastname": "Last17",
+        "street": [
+          "Street 17"
+        ],
+        "city": "Warsaw",
+        "region": "Mazowieckie",
+        "postcode": "00-001",
+        "country_id": "PL",
+        "telephone": "+48220017"
+      },
+      "payment": {
+        "method": "banktransfer",
+        "amount_ordered": 119.0,
+        "base_amount_ordered": 119.0,
+        "additional_information": [
+          "Payment processed"
+        ]
+      },
+      "items": [
+        {
+          "item_id": 200017,
+          "order_id": 100000017,
+          "product_id": 300017,
+          "sku": "SKU-0017",
+          "name": "Product 17",
+          "price": 100.0,
+          "base_price": 100.0,
+          "qty_ordered": 1,
+          "qty_shipped": 1,
+          "qty_invoiced": 1,
+          "row_total": 100.0,
+          "base_row_total": 100.0,
+          "tax_amount": 19.0,
+          "discount_amount": 0.0,
+          "created_at": "2026-03-01 09:59:00",
+          "updated_at": "2026-03-01 10:02:00"
+        }
+      ],
+      "extension_attributes": {
+        "shipping_assignments": [
+          {
+            "shipping": {
+              "address": {
+                "firstname": "First17",
+                "lastname": "Last17",
+                "street": [
+                  "Street 17"
+                ],
+                "city": "Warsaw",
+                "region": "Mazowieckie",
+                "postcode": "00-001",
+                "country_id": "PL",
+                "telephone": "+48220017"
+              },
+              "method": "flatrate_flatrate"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "entity_id": 100000018,
+      "increment_id": "000000018",
+      "quote_id": 5018,
+      "store_id": 2,
+      "store_name": "Flo PL",
+      "state": "processing",
+      "status": "pending_payment",
+      "created_at": "2026-03-01 10:06:00",
+      "updated_at": "2026-03-01 10:14:00",
+      "customer_id": 1018,
+      "customer_email": "user18@example.com",
+      "customer_firstname": "First18",
+      "customer_lastname": "Last18",
+      "customer_group_id": 1,
+      "customer_is_guest": 0,
+      "base_currency_code": "PLN",
+      "order_currency_code": "PLN",
+      "store_currency_code": "PLN",
+      "global_currency_code": "PLN",
+      "subtotal": 225.0,
+      "base_subtotal": 225.0,
+      "tax_amount": 42.75,
+      "base_tax_amount": 42.75,
+      "discount_amount": 0.0,
+      "base_discount_amount": 0.0,
+      "shipping_amount": 0.0,
+      "base_shipping_amount": 0.0,
+      "grand_total": 267.75,
+      "base_grand_total": 267.75,
+      "total_qty_ordered": 3,
+      "total_item_count": 3,
+      "billing_address": {
+        "firstname": "First18",
+        "lastname": "Last18",
+        "street": [
+          "Street 18"
+        ],
+        "city": "Warsaw",
+        "region": "Mazowieckie",
+        "postcode": "00-001",
+        "country_id": "PL",
+        "telephone": "+48220018"
+      },
+      "payment": {
+        "method": "checkmo",
+        "amount_ordered": 267.75,
+        "base_amount_ordered": 267.75,
+        "additional_information": [
+          "Payment processed"
+        ]
+      },
+      "items": [
+        {
+          "item_id": 200018,
+          "order_id": 100000018,
+          "product_id": 300018,
+          "sku": "SKU-0018",
+          "name": "Product 18",
+          "price": 75.0,
+          "base_price": 75.0,
+          "qty_ordered": 3,
+          "qty_shipped": 0,
+          "qty_invoiced": 3,
+          "row_total": 225.0,
+          "base_row_total": 225.0,
+          "tax_amount": 42.75,
+          "discount_amount": 0.0,
+          "created_at": "2026-03-01 10:06:00",
+          "updated_at": "2026-03-01 10:14:00"
+        }
+      ],
+      "extension_attributes": {
+        "shipping_assignments": [
+          {
+            "shipping": {
+              "address": {
+                "firstname": "First18",
+                "lastname": "Last18",
+                "street": [
+                  "Street 18"
+                ],
+                "city": "Warsaw",
+                "region": "Mazowieckie",
+                "postcode": "00-001",
+                "country_id": "PL",
+                "telephone": "+48220018"
+              },
+              "method": "flatrate_flatrate"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "entity_id": 100000019,
+      "increment_id": "000000019",
+      "quote_id": 5019,
+      "store_id": 3,
+      "store_name": "Felo PL",
+      "state": "processing",
+      "status": "processing",
+      "created_at": "2026-03-01 10:13:00",
+      "updated_at": "2026-03-01 10:24:00",
+      "customer_id": 1019,
+      "customer_email": "user19@example.com",
+      "customer_firstname": "First19",
+      "customer_lastname": "Last19",
+      "customer_group_id": 1,
+      "customer_is_guest": 0,
+      "base_currency_code": "PLN",
+      "order_currency_code": "PLN",
+      "store_currency_code": "PLN",
+      "global_currency_code": "PLN",
+      "subtotal": 225.0,
+      "base_subtotal": 225.0,
+      "tax_amount": 42.75,
+      "base_tax_amount": 42.75,
+      "discount_amount": 0.0,
+      "base_discount_amount": 0.0,
+      "shipping_amount": 0.0,
+      "base_shipping_amount": 0.0,
+      "grand_total": 267.75,
+      "base_grand_total": 267.75,
+      "total_qty_ordered": 3,
+      "total_item_count": 3,
+      "billing_address": {
+        "firstname": "First19",
+        "lastname": "Last19",
+        "street": [
+          "Street 19"
+        ],
+        "city": "Warsaw",
+        "region": "Mazowieckie",
+        "postcode": "00-001",
+        "country_id": "PL",
+        "telephone": "+48220019"
+      },
+      "payment": {
+        "method": "checkmo",
+        "amount_ordered": 267.75,
+        "base_amount_ordered": 267.75,
+        "additional_information": [
+          "Payment processed"
+        ]
+      },
+      "items": [
+        {
+          "item_id": 200019,
+          "order_id": 100000019,
+          "product_id": 300019,
+          "sku": "SKU-0019",
+          "name": "Product 19",
+          "price": 75.0,
+          "base_price": 75.0,
+          "qty_ordered": 3,
+          "qty_shipped": 3,
+          "qty_invoiced": 3,
+          "row_total": 225.0,
+          "base_row_total": 225.0,
+          "tax_amount": 42.75,
+          "discount_amount": 0.0,
+          "created_at": "2026-03-01 10:13:00",
+          "updated_at": "2026-03-01 10:24:00"
+        }
+      ],
+      "extension_attributes": {
+        "shipping_assignments": [
+          {
+            "shipping": {
+              "address": {
+                "firstname": "First19",
+                "lastname": "Last19",
+                "street": [
+                  "Street 19"
+                ],
+                "city": "Warsaw",
+                "region": "Mazowieckie",
+                "postcode": "00-001",
+                "country_id": "PL",
+                "telephone": "+48220019"
+              },
+              "method": "flatrate_flatrate"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "entity_id": 100000020,
+      "increment_id": "000000020",
+      "quote_id": 5020,
+      "store_id": 1,
+      "store_name": "Fuse DE",
+      "state": "processing",
+      "status": "processing",
+      "created_at": "2026-03-01 10:20:00",
+      "updated_at": "2026-03-01 10:40:00",
+      "customer_id": null,
+      "customer_email": "user20@example.com",
+      "customer_firstname": "First20",
+      "customer_lastname": "Last20",
+      "customer_group_id": 1,
+      "customer_is_guest": 1,
+      "base_currency_code": "EUR",
+      "order_currency_code": "EUR",
+      "store_currency_code": "EUR",
+      "global_currency_code": "EUR",
+      "subtotal": 25.0,
+      "base_subtotal": 25.0,
+      "tax_amount": 4.75,
+      "base_tax_amount": 4.75,
+      "discount_amount": 0.0,
+      "base_discount_amount": 0.0,
+      "shipping_amount": 0.0,
+      "base_shipping_amount": 0.0,
+      "grand_total": 29.75,
+      "base_grand_total": 29.75,
+      "total_qty_ordered": 1,
+      "total_item_count": 1,
+      "billing_address": {
+        "firstname": "First20",
+        "lastname": "Last20",
+        "street": [
+          "Street 20"
+        ],
+        "city": "Berlin",
+        "region": "Berlin",
+        "postcode": "10115",
+        "country_id": "DE",
+        "telephone": "+491230020"
+      },
+      "payment": {
+        "method": "paypal",
+        "amount_ordered": 29.75,
+        "base_amount_ordered": 29.75,
+        "additional_information": [
+          "Payment processed"
+        ]
+      },
+      "items": [
+        {
+          "item_id": 200020,
+          "order_id": 100000020,
+          "product_id": 300020,
+          "sku": "SKU-0020",
+          "name": "Product 20",
+          "price": 25.0,
+          "base_price": 25.0,
+          "qty_ordered": 1,
+          "qty_shipped": 0,
+          "qty_invoiced": 1,
+          "row_total": 25.0,
+          "base_row_total": 25.0,
+          "tax_amount": 4.75,
+          "discount_amount": 0.0,
+          "created_at": "2026-03-01 10:20:00",
+          "updated_at": "2026-03-01 10:40:00"
+        }
+      ],
+      "extension_attributes": {
+        "shipping_assignments": [
+          {
+            "shipping": {
+              "address": {
+                "firstname": "First20",
+                "lastname": "Last20",
+                "street": [
+                  "Street 20"
+                ],
+                "city": "Berlin",
+                "region": "Berlin",
+                "postcode": "10115",
+                "country_id": "DE",
+                "telephone": "+491230020"
+              },
+              "method": "flatrate_flatrate"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "search_criteria": {
+    "filter_groups": [],
+    "page_size": 20,
+    "current_page": 1
+  },
+  "total_count": 20
+}
